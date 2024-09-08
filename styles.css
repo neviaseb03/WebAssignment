@@ -1,0 +1,82 @@
+/* Basic Styling for the Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Styling for the Profile Picture */
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+/* Bucket List Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Media Styling */
+video, audio {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
